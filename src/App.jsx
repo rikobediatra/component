@@ -5,6 +5,7 @@ import AccordionPages from './pages/AccordionPages';
 import ButtonPages from './pages/ButtonPages';
 import ModalPages from "./pages/ModalPages";
 import TabelPages from "./pages/TablePages";
+import CounterPages from "./pages/CounterPages";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path={'/tabel'}>
             <TabelPages />
+          </Route>
+          <Route path={'/counter'}>
+            <CounterPages initialCount={0}/>
           </Route>
         </div>
       </div>

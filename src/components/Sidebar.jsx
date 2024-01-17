@@ -7,6 +7,7 @@ function Sidebar() {
         {label: 'Buttons', path: '/buttons'},
         {label: 'Modal', path: '/modal'},
         {label: 'Tabel', path: '/tabel'},
+        {label: 'Counter', path: '/counter'},
     ];
 
     const rederedLinks = links.map((link) => {
